@@ -97,3 +97,10 @@ localStorage.setItem('items',JSON.stringify(itemarray))
 jztupdate();
 }
 jztupdate();
+
+
+clr.addEventListener('click',()=>
+{
+    localStorage.clear();
+    jztupdate();
+})
